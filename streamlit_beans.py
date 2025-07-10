@@ -6,10 +6,11 @@ from PIL import Image
 
 @st.cache_resource
 def load_model():
-    url = 'https://drive.google.com/uc?id=1pWJ1iVdzxqYmgIz3m8pRJcRsfwRRcnB5'
-    output = 'beans_model.h5'
-    gdown.download(url, output, quiet=False)
-    return tf.keras.models.load_model(output)
+    url = "https://drive.google.com/uc?id=1pWJ1iVdzxqYmgIz3m8pRJcRsfwRRcnB5"
+    output_model = "beans_model.h5"
+    gdown.download(url, output_model, quiet=False)
+    return tf.keras.models.load_model(output_model)
+
 
 model = load_model()
 class_names = ['angular_leaf_spot', 'bean_rust', 'healthy']
