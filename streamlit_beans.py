@@ -16,7 +16,7 @@ model = load_model()
 class_names = ['angular_leaf_spot', 'bean_rust', 'healthy']
 
 # Streamlit UI
-st.title("Bean Disease Image Classifier 🌱")
+st.title("Bean Disease Image Classifier")
 st.write("Upload an image of a bean leaf to detect diseases.")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
