@@ -1,6 +1,6 @@
 tensorflow==2.13.0
 keras==2.13.1
-gdown==5.1.0  # to fix your earlier gdown error
+gdown==5.1.0 
 Pillow
 numpy
 streamlit
