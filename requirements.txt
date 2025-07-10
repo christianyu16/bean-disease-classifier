@@ -1,6 +1,5 @@
-tensorflow==2.13.0
-keras==2.13.1
-gdown
-Pillow
-numpy
 streamlit
+tensorflow==2.13.0
+numpy
+Pillow
+gdown
